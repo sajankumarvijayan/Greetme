@@ -1,0 +1,29 @@
+{
+  "name": "greetme",
+  "version": "0.0.0",
+  "description": "This is a tutorial code for how to create a node modules and publish to npm.",
+  "main": "index.js",
+  "scripts": {
+    "test":"./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajankumarvijayan/Greetme.git"
+  },
+  "keywords": [
+    "greetme",
+    "welcome",
+    "hi",
+    "bye"
+  ],
+  "author": "sajankumar <sajankumarv@live.com> (http://sajan-creativepro.rhcloud.com)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/sajankumarvijayan/Greetme/issues"
+  },
+  "homepage": "https://github.com/sajankumarvijayan/Greetme#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
